@@ -188,7 +188,8 @@ terraform.rc
 #Ignore TFstate files
 *.tfstate
 *.tfstate.*
-
+*/Terraform/State
+*/Terraform/State/*
 # Ignore Sensitve Data
 *.pem
 *.key
