@@ -2,7 +2,7 @@
 ## Overview:
 Build a weather data collection system which uses the OpenWeather API [1] to pull weather details for multiple cities, and store the data in AWS S3 [2] for dashboarding.
 
-## AWS Architecture:
+### AWS Architecture:
 ![AWS Architecture Diagram](./Images/ArchitectureDiagram.png)
 
 **Services Used**:
@@ -10,7 +10,7 @@ Build a weather data collection system which uses the OpenWeather API [1] to pul
 2) AWS Lambda
 3) AWS S3
 
-## Future Enhancements:
+### Future Enhancements:
 1) Implement Data visualization through CloudWatch dashboards using custom metrics and/or explore other alternatives.
 2) Add a private API for developers to request weather data ad-hoc and outside of the schedule.
 3) Setup CI/CD pipeline for iteration.
@@ -33,6 +33,6 @@ Build a weather data collection system which uses the OpenWeather API [1] to pul
 
 
 ## References:
-1) - [OpenWeatherAPI](https://openweathermap.org/api)
-2) - [AWS S3](https://docs.aws.amazon.com/s3/)
-3) - [Youtube Video](https://youtu.be/A95XBJFOqjw) - ShaeInTheCloud
+1) [OpenWeatherAPI](https://openweathermap.org/api)
+2) [AWS S3](https://docs.aws.amazon.com/s3/)
+3) [Youtube Video](https://youtu.be/A95XBJFOqjw) - ShaeInTheCloud
