@@ -169,3 +169,27 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local .terraform directories
+**/.terraform/*
+# Ignore variables files
+*.auto.tfvars
+
+# Ignore override files
+*.tfoverride
+
+# Ignore environment-specific files
+.envrc
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+#Ignore TFstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore Sensitve Data
+*.pem
+*.key
+*.pub
