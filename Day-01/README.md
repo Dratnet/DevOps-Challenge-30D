@@ -3,7 +3,7 @@
 Build a weather data collection system which uses the OpenWeather API [1] to pull weather details for multiple cities, and store the data in AWS S3 [2] for dashboarding.
 
 ## AWS Architecture:
-![AWS Architecture Diagram](./Images/ArchitetureDiagam.png)
+![AWS Architecture Diagram](./Images/ArchitectureDiagram.png)
 
 **Services Used**:
 1) AWS EventBridge Scheduler
