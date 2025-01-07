@@ -190,6 +190,10 @@ terraform.rc
 *.tfstate.*
 */Terraform/State
 */Terraform/State/*
+
+#Ignore terraform init lock.
+*/Terraform/.terraform.lock.hcl
+
 # Ignore Sensitve Data
 *.pem
 *.key
