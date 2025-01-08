@@ -16,10 +16,11 @@ The Intent of this project is to automate the retrival and delivery of NBA game 
 3) Setup CI/CD pipeline for iteration on the solution.
 
 ### Prerequisites:
-1) AWS Account to deploy resources
-2) NBA SportsDataIO API key
-3) Terraform
-  
+1) AWS Account to deploy resources.
+2) NBA SportsDataIO API key to request sports data.
+3) Email Address to receive notifications. 
+4) Terraform to deploy the resources.
+
 ### Steps to deploy this in your account:
 1) Clone the Directory to your local environment.
 2) Configure AWS CLI and/or export AWS access keys as variables.
@@ -40,4 +41,3 @@ The Intent of this project is to automate the retrival and delivery of NBA game 
 5) [Amazon SNS supports automatic deletion of unconfirmed subscriptions](https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-sns-automatic-deletion-unconfirmed-subscriptions/)
 6) [Youtube Video](https://www.youtube.com/watch?v=09WfkKc0x_Q&t=1430s)
 - REXTECH friends
-
