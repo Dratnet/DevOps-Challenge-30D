@@ -33,7 +33,7 @@ The Intent of this project is to automate the retrival and delivery of NBA game 
  - The subscription that is pending confirmation will be automatically deleted by AWS after 48 hours [5].
 
 ## References:
-1) [OpenWeatherAPI](https://openweathermap.org/api)
+1) [SportsDataIO API](https://sportsdata.io/developers/api-documentation/nba)
 2) [Amazon EventBridge Scheduler](https://docs.aws.amazon.com/eventbridge/latest/userguide/using-eventbridge-scheduler.html)
 3) [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 4) [Amazon SNS](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
