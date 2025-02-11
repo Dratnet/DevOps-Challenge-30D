@@ -1,2 +1,14 @@
-### This is a Temporary File
-- Committing this to fix the structure
+# Next Project
+## Overview:
+
+### AWS Architecture:
+
+**Services Used**:
+
+### Future Enhancements:
+
+### Prerequisites:
+
+### Steps to deploy this in your account:
+
+## References:
