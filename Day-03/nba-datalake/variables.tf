@@ -8,11 +8,12 @@ variable "NBA_API_KEY" {
   }
 }
 
-variable "GAMEDATA_NOTIFICATION_EMAIL"{
+variable "NBA_ENDPOINT_URL" {
   type = string
-  description = "Provide the email address to subscribe to the Game Data Notification Topic"
+  description = "URL for NBA data Access"
+  sensitive = true
   validation {
-    condition = length(var.GAMEDATA_NOTIFICATION_EMAIL) > 0
-    error_message = "The email address must be a non-empty string."
+    condition = length(var.NBA_ENDPOINT_URL) > 0
+    error_message = "The endpoint URL must be a non-empty string."
   }
 }
